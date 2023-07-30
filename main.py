@@ -460,7 +460,7 @@ backgroundMusic.set_volume(0.05)
 takeOffSound.set_volume(0.5)
 
 # Creating variable for rules menu
-rulesDisplay = pygame.image.load("fanISC3U Summative.png")
+rulesDisplay = pygame.image.load("fanRules.png")
 
 # Creating Rect for all buttons
 startButton = pygame.Rect(325, 300, 150, 50)
