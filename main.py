@@ -445,13 +445,13 @@ fontShipNum = pygame.font.SysFont("Times New Roman", 90)
 fontButton = pygame.font.SysFont("Times New Roman", 40) 
 
 # Creating variables for sound file types
-fireSound = pygame.mixer.Sound("fanLaser.mp3") 
-weaknessSound = pygame.mixer.Sound("fanPowerDown.mp3")
-powerUpSound = pygame.mixer.Sound("fanPower-up.wav")
-playerHitSound = pygame.mixer.Sound("fanPlayer-hit.wav")
-takeOffSound = pygame.mixer.Sound("fanTake-off.wav")
-backgroundMusic = pygame.mixer.Sound("fanRetroMusic.mp3")
-destroySound = pygame.mixer.Sound("fanExplosion.wav")
+fireSound = pygame.mixer.Sound("laser.mp3") 
+weaknessSound = pygame.mixer.Sound("powerDown.mp3")
+powerUpSound = pygame.mixer.Sound("power-up.wav")
+playerHitSound = pygame.mixer.Sound("player-hit.wav")
+takeOffSound = pygame.mixer.Sound("take-off.wav")
+backgroundMusic = pygame.mixer.Sound("retroMusic.mp3")
+destroySound = pygame.mixer.Sound("explosion.wav")
 
 # Changing sound volume
 destroySound.set_volume(0.05)
@@ -460,7 +460,7 @@ backgroundMusic.set_volume(0.05)
 takeOffSound.set_volume(0.5)
 
 # Creating variable for rules menu
-rulesDisplay = pygame.image.load("fanRules.png")
+rulesDisplay = pygame.image.load("rules.png")
 
 # Creating Rect for all buttons
 startButton = pygame.Rect(325, 300, 150, 50)
