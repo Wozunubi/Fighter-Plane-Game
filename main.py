@@ -1,4 +1,4 @@
-# Description: Summative game. In the near future, the central computer controlling a cargo ship was hacked, and the e-waste contained within is being diverted to an alternate destination illegally. Your final goal is to temporarily disable the cargo ship and wipe the malicious code, thus regaining control. However, the enemy will throw their e-waste at you as they try to slow you down, but you can use your weapons to vaporize them.
+# Description: In the near future, the central computer controlling a cargo ship was hacked, and the e-waste contained within is being diverted to an alternate destination illegally. Your final goal is to temporarily disable the cargo ship and wipe the malicious code, thus regaining control. However, the enemy will throw their e-waste at you as they try to slow you down, but you can use your weapons to vaporize them.
 
 # Import libraries
 import pygame, math, random
